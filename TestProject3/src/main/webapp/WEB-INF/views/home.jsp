@@ -25,11 +25,9 @@
 	
 	<h1>인덱스 페이지 입니다.</h1>
 	<ul>
-		<li><a href="${pageContext.request.contextPath}/file/list.do">자료실 목록 보기</a></li>
-		<li><a href="${pageContext.request.contextPath}/cafe/list.do">카페글 목록 보기</a></li>
-		<li><a href="${pageContext.request.contextPath}/gallery/list.do">겔러리 목록 보기</a></li>
-		<li><a href="${pageContext.request.contextPath}/animate_test.jsp">animate css  테스트</a></li>
-		<li><a href="${pageContext.request.contextPath}/shop/list.do">상품목록</a></li>
+		<li><a href="${pageContext.request.contextPath}/movie/list.do">현재상영작 보기</a></li>
+		<li><a href="${pageContext.request.contextPath}/board/list.do">게시판 보기</a></li>
+		<li><a href="${pageContext.request.contextPath}/movie/reservation.do">예매페이지</a></li>
 	</ul>
 	
 	<h2>공지사항</h2>
